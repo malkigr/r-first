@@ -8,6 +8,7 @@
 		   public static void main( String args[] )
 		   { 
 		      // Sample application 
+			  System.out.println("Java application");
 			  BoardFrame board = new BoardFrame();
 		      board.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
 		      board.setSize( 600,600); // set frame size
